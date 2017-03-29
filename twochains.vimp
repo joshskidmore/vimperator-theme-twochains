@@ -1,0 +1,42 @@
+" ==Vimperator_Color_Scheme==
+"
+" name: twochains
+" author: Josh Skidmore
+" url: https://github.com/joshskidmore/vimperator-theme-twochains
+" date: March 2017
+"
+" ==/Vimperator_Color_Scheme==
+
+
+hi String               color: pink;
+
+hi Normal               color: #ffffff; background: #000000; font-size: 12px; font-family: SFMono, monospace, sans-serif;
+
+hi CmdLine              color: #ffffff; background: #000000; font-family: SFMono,monospace,sans-serif; font-size: 12px;
+hi CmdLine>*            font-family: SFMono, monospace, sans-serif; font-size: 12px; border: 3px solid #000000;
+
+hi CompItem>*           height: auto; padding: 4px 6px;
+hi CompItem[selected]   background: #3D3F41;
+hi CompIcon             width: 16px; min-width: 16px; display: inline-block; margin-right: 15px;
+hi CompDesc             color: #e2e2e2; font-size: 11px;
+hi CompTitle            color: #ffffff; background: #000000; font-weight: 600; text-transform: uppercase;
+hi CompTitle>*          color: #ffffff; padding: 5px; 
+
+hi ContentSeparator     border: 0;
+
+hi InfoMsg              color: #D7FF00; background: transparent;
+hi WarningMsg           color: red;
+
+hi Filter               background: #D75F00;
+
+hi URL                  color: #45D1FF;
+
+hi HintImage            background: transparent;
+hi HintElem             background: transparent;
+hi Hint                 color: #fff; font-family: SFMono, monospace, sans-serif; font-size: 11px; font-weight: 600; background-color: rgba(0,0,0,0.75); padding: 0 5px; border-width: 0;
+
+
+hi StatusLine           color: #ffffff; background: #000000; font-size: 12px; font-family: SFMono, monospace, sans-serif; padding: 0 0 0 0;
+hi StatusLine >*        border: 0; background: #000000; color: #ffffff;
+
+hi PromptText           color: #ffffff; background: transparent; font-weight: 600; text-transform: uppercase;
