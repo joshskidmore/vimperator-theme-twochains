@@ -22,7 +22,8 @@ hi CompTitle>*          color: #ffffff; padding: 5px;
 
 hi ContentSeparator     border: 0;
 
-hi InfoMsg              color: #D7FF00; background: transparent;
+hi ErrorMsg             color: red;
+hi InfoMsg              color: #D7FF00;
 hi WarningMsg           color: red;
 
 hi Filter               background: #D75F00;
