@@ -8,8 +8,6 @@
 " ==/Vimperator_Color_Scheme==
 
 
-hi String               color: pink;
-
 hi Normal               color: #ffffff; background: #000000; font-size: 12px; font-family: SFMono, monospace, sans-serif;
 
 hi CmdLine              color: #ffffff; background: #000000; font-family: SFMono,monospace,sans-serif; font-size: 12px;
